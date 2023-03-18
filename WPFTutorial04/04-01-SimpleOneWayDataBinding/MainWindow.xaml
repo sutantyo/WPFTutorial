@@ -1,0 +1,14 @@
+﻿<Window x:Class="_04_01_SimpleOneWayDataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_04_01_SimpleOneWayDataBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="200">
+  <StackPanel>
+    <ListView x:Name="OnList"/>
+    <Button Click="Button_Click" Content="Substitute"/>
+    <ListView x:Name="OnReserve" ItemsSource="{Binding ReserveList}"/>
+  </StackPanel>
+</Window>

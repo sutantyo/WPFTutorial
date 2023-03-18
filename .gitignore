@@ -1,0 +1,6 @@
+[0o]bj/
+[Bb]in/
+[Dd]ebug/
+
+# VS cache
+.vs/
